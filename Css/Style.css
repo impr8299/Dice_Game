@@ -1,0 +1,99 @@
+*
+{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+.heading
+{
+    align-items:center ;
+    height: 20%;
+    background-color: cadetblue;
+    color: white;
+    font-size: xx-large;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.heading h1{
+    text-align: center;
+    justify-content: center;
+    letter-spacing: 4px;
+}
+.MainBody
+{
+    height: 75%;
+    background-color: aquamarine;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding-top: 5%;
+    padding-left: 27%;
+}
+.footer{
+    height: 5%;
+    background-color: turquoise;
+}
+.box{
+    background-color: bisque;
+    height: 70%;
+    width: 60%;
+    border: 1px solid brown;
+    border-radius: 12px;
+    box-shadow: 0 1px 30px gray;
+   
+    
+}
+.content
+{
+    padding-top: 5%;
+}
+.Buttons
+{
+    display: flex;
+    height: 30px;
+    width: 70px;
+    text-align: center;
+    margin-left: 35%;
+    margin-top: 10%;
+    
+}
+
+.roll {
+   margin-right: 10px;
+   padding: 0 15px;
+   border-radius: 5px;
+}
+
+.roll:hover{
+    transform: scale(1.05, 1.05);
+    box-shadow: 0px 13px 10px -8px black;
+}
+
+.hold{
+    margin-left: 10px;
+    padding: 0 10px;
+    border-radius: 5px; 
+}
+
+.hold:hover{
+    transform: scale(1.05, 1.05);
+    box-shadow: 0px 13px 10px -8px black;
+}
+
+.reset{
+    margin-left: 15px;
+    border-radius: 5px;
+}
+
+.reset:hover{
+    transform: scale(1.05, 1.05);
+    box-shadow: 0px 13px 10px -8px black;
+}
+
+.hidden { 
+    display: none;
+}
