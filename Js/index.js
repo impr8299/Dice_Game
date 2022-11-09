@@ -6,8 +6,8 @@ let totalScore = 0;
 
 const generateDice = () => 
 {
-    x = Math.random()*10;
-    diceOutcome = Math.trunc(x);
+    randomNum = Math.random()*10;
+    diceOutcome = Math.trunc(randomNum);
     console.log(diceOutcome);
 }
 
